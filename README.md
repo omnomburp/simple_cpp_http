@@ -1,6 +1,6 @@
 # Simple Http
 
-A C++ single-file header-only HTTP library, currently only usable on Unix like systems. This was made to be similar to net/http that you would find in Go. Winsock support will probably never be added.
+A C++ single-file header-only HTTP library, currently only usable on Unix like systems. This was made to be similar to net/http that you would find in Go. Winsock support will probably never be added. Also GET requests aren't properly supported with this.
 
 ### How to use
 The constructor takes in the port that it listens on and the maximum connections allowed.
